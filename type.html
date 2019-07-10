@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>speed typing</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+      <link rel="stylesheet" href="./public/css/style.css">
+      <script src="./public/js/jquery.js"></script>
+      <script src="./public/js/type.js" defer></script>
+   </head>
+
+   <body>
+      <header class="container-fluid p-0 sticky-top">
+         <div class="row no-gutters">
+            <div class="col-12">
+               <nav class="navbar navbar-expand-md navbar-light bg-light p-0">
+                  <a href="#!" class="navbar-brand font-weight-bold ml-3">
+                     <span id="game-name">Speed Typing</span>
+                  </a>
+                  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                     <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div id="menu" class="collapse navbar-collapse justify-content-end">
+                     <a href="#!" class="nav-item nav-link text-light">
+                        <button type="button" class="btn btn-danger btn-sm">Contact developer</button>
+                     </a>
+                     <a href="#!" class="nav-item nav-link text-light">
+                        <button type="button" class="btn btn-danger btn-sm">About game</button>
+                     </a>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </header>
+
+      <main class="container">
+
+         <div class="row no-gutters mt-4">
+            <div class="col-12 col-lg-8 mx-auto p-5 border rounded game-wrapper">
+
+               <div class="row m-0">
+                  <div class="col-12">
+                     Time Left<br /> <strong id="timer-box">15</strong><span id="secTimer">secs</span>
+                  </div>
+
+                  <div class="col-12 d-flex flex-column  flex-md-row flex-wrap justify-content-between align-items-center mt-md-5 mt-2">
+                     <div>
+                        score <br /> <strong id="score-box">0</strong>
+                     </div>
+
+                     <div>
+                        <p id="letter-box">fingers ready?</p>
+                     </div>
+
+                     <div>
+                        level <br /> <strong id="level-box">0</strong>
+                     </div>
+                  </div>
+
+                  <div class="col-12 mt-md-4">
+                     <form autocomplete="off" action="javascript:void(0)">
+                        <input type="text" id="input" placeholder="start typing word here">
+                     </form>
+                  </div>
+
+               </div>
+
+               <div class="row m-0 mt-5">
+                  <div class="col-12 col-md-6 mx-auto mt-md-5 mt-2 text-center btn-box">
+                     <button type="button" id="start" class="btn btn-md btn-success border">start</button>
+                     <button type="button" id="reset" class="btn btn-md btn-danger border">reset</button>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </main>
+      <script src="./public/js/bootstrap.min.js"></script>
+   </body>
+
+</html>
