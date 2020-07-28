@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-moz-transition: all, 0.2s linear;
+	-webkit-transition: all, 0.2s linear;
+	-o-transition: all, 0.2s linear;
+	transition: all, 0.2s linear;
+	/*
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; */
+
+	text-shadow: 0 1px 2px rgb(0, 0, 0);
+
+	-webkit-transition: all 0.3s linear !important;
+	-moz-transition: all 0.3s linear !important;
+	-o-transition: all 0.3s linear !important;
+	transition: all 0.3 linear !important;
+}
+
+/* rgb(185, 57, 57);
+rgba(3, 44, 90, 0.952);
+*/
+
+body {
+	background-color: rgba(70, 12, 146, 0.952);
+	color: rgb(245, 245, 245);
+	text-align: center;
+	font-family: 'Trebuchet MS';
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+	background: rgb(177, 153, 19);
+}
+
+.nav-link{
+	text-shadow:none !important;
+}
+#game-name {
+	color: rgb(245, 245, 245);
+	text-shadow: 0 1px 1px rgb(0, 0, 0);
+}
+
+strong {
+	font-size: 60px;
+	color: rgb(177, 153, 19);
+}
+
+#input {
+	font-size: 20px;
+	background-color: transparent;
+	border: 0;
+}
+
+#letter-box {
+	font-size: 40px;
+}
+
+.btn-box button {
+	font-weight: 500 !important;
+	text-transform: capitalize;
+	box-shadow: inset 0 2px 4px 0 rgb(0, 0, 0);
+}
+
+.btn-box button:hover {
+	box-shadow: none;
+}
